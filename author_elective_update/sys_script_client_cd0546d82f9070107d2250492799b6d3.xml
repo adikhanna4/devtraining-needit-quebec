@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>value</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+  var d=" ";
+	d= g_form.getValue('u_requested_for_email');
+	alert(d);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-19 14:09:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cd0546d82f9070107d2250492799b6d3</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>value</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_cd0546d82f9070107d2250492799b6d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-19 14:32:48</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>f6f931a8db35d704ff27d5b0cf96199f</instance_id>
+        <instance_name>dev57611</instance_name>
+        <name>sys_script_client_cd0546d82f9070107d2250492799b6d3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;value&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+  var d=" ";
+	d= g_form.getValue('u_requested_for_email');
+	alert(d);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-05-19 14:09:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cd0546d82f9070107d2250492799b6d3&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;value&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_cd0546d82f9070107d2250492799b6d3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-05-19 14:32:48&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-917109903</payload_hash>
+        <record_name>value</record_name>
+        <reverted_from/>
+        <source>fd9919802f9430107d2250492799b6e1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-19 14:32:48</sys_created_on>
+        <sys_id>ebda86502fd070107d2250492799b612</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179850b1e140000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-19 14:32:48</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>27da865029d070109fb795bb8c8cac12</update_guid>
+        <update_guid_history>27da865029d070109fb795bb8c8cac12:-917109903,62ba06506fd07010ca789527b9f1bfd8:-1806975468,9c9a8a1086d0701066297084381da4ff:504860767,0ab94a104ed070106aaf4ad20eac840a:1527516480,fa89061027d0701036135e4bed9769dd:668734986,33490adc179070100608212133b5bfb2:-1724855229,32290edcb69070100fa5c505c456706f:-300256139,a9a8c29c1c907010b5a07bd552db6868:3674507,ef388a9ca79070109e74abed94b47550:-806288498,8bf7c2dced907010d5879c799f594e8e:-1166160257,5f66865c159070105867e677ec2ba124:-1742726387,e9064e5c5f90701052e1806d73cc455b:1003528512,7c75021cbb90701005ed90cf0c8735db:1446564648</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-19 14:41:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>01835b3108224c7c800de716c2dd6d90</sys_id>
+        <sys_metadata>cd0546d82f9070107d2250492799b6d3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>value</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">081ad5042f9430107d2250492799b6fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_cd0546d82f9070107d2250492799b6d3</sys_update_name>
+        <sys_update_version display_value="sys_script_client_cd0546d82f9070107d2250492799b6d3">ebda86502fd070107d2250492799b612</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-19 14:41:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
